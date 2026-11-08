@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Powered-API-Development-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Powered-API-Development-Platform?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Powered-API-Development-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Powered-API-Development-Platform?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Powered-API-Development-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Powered-API-Development-Platform?style=social" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Powered-API-Development-Platform/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-AI-Powered-API-Development-Platform?color=red" alt="GitHub Issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Powered-API-Development-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License"/></a>
@@ -64,7 +64,7 @@ The table below evaluates prominent commercial and hosted API development platfo
 | **[Insomnia (Kong)](https://insomnia.rest/)** | **$2.0B Valuation** (~$100M+ ARR via Kong Inc.) | **$10/user/mo** (Pro, billed annually; $12 billed monthly) | Up to **3 users** on Git Sync projects; 1,000 mock server calls/mo; unlimited local/cloud projects | Native MCP client/server connectivity, AI-assisted mock endpoint generation, commit suggestions, and local LLM GGUF execution. |
 | **[RapidAPI Studio](https://rapidapi.com/studio)** | **$1.0B Peak Valuation** (~$24M ARR; Acquired by Nokia) | **$10/mo** (Basic marketplace tiers start $10–$29/mo) | Provider plans capped at **1,000 req/hr** and **500,000 req/mo**; consumer limits set by individual APIs | Comprehensive API marketplace integration, automated spec testing, endpoint monitoring, and cloud workspace syncing. |
 | **[Bruno](https://www.usebruno.com/)** | **$3M Venture Funded** (Silverton Partners; 4M+ devs) | **$6/user/mo** (Pro annual; Ultimate $11/user/mo) | **Forever free** for core app & offline collections; capped at **2 workspaces** on free tier | Local-first plain-text Bru/YAML files, Git-native version control, and BYOK AI assistant (OpenAI, Anthropic, local Ollama). |
-| **[Hoppscotch](https://hoppscotch.io/)** | **$3M Seed Funded** (OSS Capital; 80k+ GitHub stars) | **$6/user/mo** (Business; Enterprise Cloud $11/user/mo) | **Forever free** with **unlimited** collections, requests, environments, and runs; AI Assistant requires Enterprise | Real-time multi-protocol support (REST, GraphQL, WebSockets, MQTT), self-hostable Docker edition, and BYOK Enterprise AI assistant. |
+| **[Hoppscotch](https://hoppscotch.io/)** | **$3M Seed Funded** (OSS Capital; 80k+ GitHub_Stars) | **$6/user/mo** (Business; Enterprise Cloud $11/user/mo) | **Forever free** with **unlimited** collections, requests, environments, and runs; AI Assistant requires Enterprise | Real-time multi-protocol support (REST, GraphQL, WebSockets, MQTT), self-hostable Docker edition, and BYOK Enterprise AI assistant. |
 | **[Thunder Client](https://www.thunderclient.com/)** | **Bootstrapped** (7M+ downloads; Private revenue) | **$3/user/mo** (Starter; Business $7/user/mo) | Capped at **250 collection runs/user/month**; Git sync and CLI restricted to paid tiers | Ultra-lightweight VS Code GUI extension, local data storage, and low memory footprint for seamless IDE testing. |
 | **[Firecamp](https://firecamp.io/)** | **Bootstrapped** (Pre-series/seed; Private revenue) | **$49/mo** (Team plan for up to 15 seats) | Up to **5 team members** free forever; unlimited workspaces and collections | Multi-protocol API testing across REST, GraphQL, and WebSockets with collaborative workspace synchronization. |
 | **[Apidog](https://apidog.com/)** | **Privately Held** (Bootstrapped / Private revenue) | **$9/user/mo** (Basic; Professional $18/user/mo) | Up to **4 users** free forever with unlimited branches and unlimited API design specifications | Desktop-native visual MCP debugger (STDIO and HTTP transports), AI Test Engine, intelligent mock servers, and CLI test runners. |
@@ -74,69 +74,69 @@ The table below evaluates prominent commercial and hosted API development platfo
 
 ## 🔓 Open-Source GitHub Projects
 
-Below are top-tier open-source API clients, testing assistants, and MCP orchestration platforms, **ranked in descending order by GitHub Stars** 🌟:
+Below are top-tier open-source API clients, testing assistants, and MCP orchestration platforms, **ranked in descending order by GitHub_Stars** 🌟:
 
-- **[Hoppscotch](https://github.com/hoppscotch/hoppscotch)** [![GitHub stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers)
+- **[Hoppscotch](https://github.com/hoppscotch/hoppscotch)** [![GitHub_Stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers)
   - 🛠️ **Tech Stack**: Vue.js, TypeScript • **License**: MIT
   - 💡 **Key Features**: The most popular open-source API client. Features REST, GraphQL, WebSocket, SSE, Socket.IO, and MQTT testing; agentic Enterprise AI assistant; BYOK integration (OpenAI, Anthropic, Bedrock, Ollama); self-hostable via Docker.
   - ⚖️ **Trade-Off**: Agentic AI assistant capabilities are gated to Enterprise tiers.
 
-- **[Bruno](https://github.com/usebruno/bruno)** [![GitHub stars](https://img.shields.io/github/stars/usebruno/bruno?style=social&color=white)](https://github.com/usebruno/bruno/stargazers)
+- **[Bruno](https://github.com/usebruno/bruno)** [![GitHub_Stars](https://img.shields.io/github/stars/usebruno/bruno?style=social&color=white)](https://github.com/usebruno/bruno/stargazers)
   - 🛠️ **Tech Stack**: JavaScript, Electron • **License**: MIT
   - 💡 **Key Features**: Git-native, privacy-first API client saving collections directly in plain text (Bru / YAML). Integrated AI assistant (Beta) with BYOK for test, script, and documentation generation with zero telemetry sent to vendor cloud.
   - ⚖️ **Trade-Off**: Lacks built-in visual MCP client transport debugging compared to Postman/Apidog.
 
-- **[Insomnia](https://github.com/Kong/insomnia)** [![GitHub stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers)
+- **[Insomnia](https://github.com/Kong/insomnia)** [![GitHub_Stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers)
   - 🛠️ **Tech Stack**: Electron, React • **License**: Apache 2.0 Core
   - 💡 **Key Features**: Generous free AI tooling with native MCP Client and Server execution. AI-assisted mock server generation, commit suggestions, multi-protocol execution, and local LLM GGUF inference for data sovereignty.
   - ⚖️ **Trade-Off**: Local offline LLM execution requires adequate developer hardware; lacks autonomous chat workflows.
 
-- **[Yaak](https://github.com/mountain-loop/yaak)** [![GitHub stars](https://img.shields.io/github/stars/mountain-loop/yaak?style=social&color=white)](https://github.com/mountain-loop/yaak/stargazers)
+- **[Yaak](https://github.com/mountain-loop/yaak)** [![GitHub_Stars](https://img.shields.io/github/stars/mountain-loop/yaak?style=social&color=white)](https://github.com/mountain-loop/yaak/stargazers)
   - 🛠️ **Tech Stack**: Rust, Tauri • **License**: MIT / Commercial
   - 💡 **Key Features**: Ultra-fast, agent-first desktop client. Replaces in-app chat with an agent-friendly CLI (`@yaakapp/cli`) and MCP server plugin designed for Claude Code, Codex, and Cursor to orchestrate requests programmatically.
   - ⚖️ **Trade-Off**: No in-app conversational assistant; designed entirely for external AI agent drivers.
 
-- **[Mockoon](https://github.com/mockoon/mockoon)** [![GitHub stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers)
+- **[Mockoon](https://github.com/mockoon/mockoon)** [![GitHub_Stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers)
   - 🛠️ **Tech Stack**: TypeScript, Electron • **License**: MIT
   - 💡 **Key Features**: The fastest way to run realistic mock APIs locally. Features built-in AI endpoint generation, realistic JSON synthesis, route rules, proxy mode, CLI runner, and Docker containers for CI/CD.
   - ⚖️ **Trade-Off**: Cloud collaboration and specialized remote team sync are part of commercial cloud tiers.
 
-- **[API Dash](https://github.com/foss42/apidash)** [![GitHub stars](https://img.shields.io/github/stars/foss42/apidash?style=social&color=white)](https://github.com/foss42/apidash/stargazers)
+- **[API Dash](https://github.com/foss42/apidash)** [![GitHub_Stars](https://img.shields.io/github/stars/foss42/apidash?style=social&color=white)](https://github.com/foss42/apidash/stargazers)
   - 🛠️ **Tech Stack**: Flutter, Dart • **License**: Apache 2.0
   - 💡 **Key Features**: Beautiful, lightweight, native cross-platform desktop and mobile client. Supports REST & GraphQL request creation, response inspection, and AI-assisted code generation across multiple languages.
   - ⚖️ **Trade-Off**: Younger ecosystem without complex enterprise governance or native MCP server protocols.
 
-- **[Restfox](https://github.com/flawiddsouza/Restfox)** [![GitHub stars](https://img.shields.io/github/stars/flawiddsouza/Restfox?style=social&color=white)](https://github.com/flawiddsouza/Restfox/stargazers)
+- **[Restfox](https://github.com/flawiddsouza/Restfox)** [![GitHub_Stars](https://img.shields.io/github/stars/flawiddsouza/Restfox?style=social&color=white)](https://github.com/flawiddsouza/Restfox/stargazers)
   - 🛠️ **Tech Stack**: Vue.js, Web Standards • **License**: MIT
   - 💡 **Key Features**: Completely offline-first, browser-based and desktop HTTP client. Minimalist UI, zero account registration, local IndexedDB persistence, and pluggable scripting.
   - ⚖️ **Trade-Off**: Pure testing client without built-in AI features; relies on external agent scripting.
 
-- **[Firecamp](https://github.com/firecamp-dev/firecamp)** [![GitHub stars](https://img.shields.io/github/stars/firecamp-dev/firecamp?style=social&color=white)](https://github.com/firecamp-dev/firecamp/stargazers)
+- **[Firecamp](https://github.com/firecamp-dev/firecamp)** [![GitHub_Stars](https://img.shields.io/github/stars/firecamp-dev/firecamp?style=social&color=white)](https://github.com/firecamp-dev/firecamp/stargazers)
   - 🛠️ **Tech Stack**: TypeScript, Electron • **License**: GPL-3.0
   - 💡 **Key Features**: Multi-protocol developer platform for WebSocket, Socket.IO, GraphQL, and REST. Team workspaces, environment configuration, and planned AI test generation integrations.
   - ⚖️ **Trade-Off**: Full generative AI features are still rolling out across the desktop client.
 
-- **[Yaade](https://github.com/EsperoTech/yaade)** [![GitHub stars](https://img.shields.io/github/stars/EsperoTech/yaade?style=social&color=white)](https://github.com/EsperoTech/yaade/stargazers)
+- **[Yaade](https://github.com/EsperoTech/yaade)** [![GitHub_Stars](https://img.shields.io/github/stars/EsperoTech/yaade?style=social&color=white)](https://github.com/EsperoTech/yaade/stargazers)
   - 🛠️ **Tech Stack**: Kotlin, React • **License**: MIT
   - 💡 **Key Features**: Fully self-hosted, multi-user collaborative API platform with end-to-end encryption for security-sensitive organizations. Easily scriptable REST API for automated testing.
   - ⚖️ **Trade-Off**: Does not include embedded LLM assistants; focuses on secure data hosting.
 
-- **[Step CI](https://github.com/stepci/stepci)** [![GitHub stars](https://img.shields.io/github/stars/stepci/stepci?style=social&color=white)](https://github.com/stepci/stepci/stargazers)
+- **[Step CI](https://github.com/stepci/stepci)** [![GitHub_Stars](https://img.shields.io/github/stars/stepci/stepci?style=social&color=white)](https://github.com/stepci/stepci/stargazers)
   - 🛠️ **Tech Stack**: Node.js, TypeScript • **License**: Apache 2.0
   - 💡 **Key Features**: Declarative, code-first framework for API testing and QA automation. Uses simple YAML/JSON definitions across REST, GraphQL, gRPC, and WebSockets. Perfect target for coding agents generating regression test suites.
   - ⚖️ **Trade-Off**: Code-first and CLI-centric; lacks an interactive GUI workbench.
 
-- **[Testkube](https://github.com/kubeshop/testkube)** [![GitHub stars](https://img.shields.io/github/stars/kubeshop/testkube?style=social&color=white)](https://github.com/kubeshop/testkube/stargazers)
+- **[Testkube](https://github.com/kubeshop/testkube)** [![GitHub_Stars](https://img.shields.io/github/stars/kubeshop/testkube?style=social&color=white)](https://github.com/kubeshop/testkube/stargazers)
   - 🛠️ **Tech Stack**: Go, Kubernetes • **License**: MIT
   - 💡 **Key Features**: Kubernetes-native testing engine featuring a native Model Context Protocol (MCP) server. Enables AI assistants (Claude, Cursor) to execute and debug Postman, k6, and Cypress suites directly within Kubernetes clusters.
   - ⚖️ **Trade-Off**: Enterprise Kubernetes infrastructure required; not intended for simple local endpoint ad-hoc testing.
 
-- **[Sentinel API Testing](https://github.com/proffesor-for-testing/sentinel-api-testing)** [![GitHub stars](https://img.shields.io/github/stars/proffesor-for-testing/sentinel-api-testing?style=social&color=white)](https://github.com/proffesor-for-testing/sentinel-api-testing/stargazers)
+- **[Sentinel API Testing](https://github.com/proffesor-for-testing/sentinel-api-testing)** [![GitHub_Stars](https://img.shields.io/github/stars/proffesor-for-testing/sentinel-api-testing?style=social&color=white)](https://github.com/proffesor-for-testing/sentinel-api-testing/stargazers)
   - 🛠️ **Tech Stack**: Python, Rust, React • **License**: MIT
   - 💡 **Key Features**: Autonomous API testing platform utilizing ephemeral agents. Generates and runs functional, security (BOLA, injection), and stress tests from OpenAPI specifications with BYOK multi-model support.
   - ⚖️ **Trade-Off**: Autonomous testing platform rather than an interactive daily exploratory client.
 
-- **[JARVIS](https://github.com/dipjyotimetia/JARVIS)** [![GitHub stars](https://img.shields.io/github/stars/dipjyotimetia/JARVIS?style=social&color=white)](https://github.com/dipjyotimetia/JARVIS/stargazers)
+- **[JARVIS](https://github.com/dipjyotimetia/JARVIS)** [![GitHub_Stars](https://img.shields.io/github/stars/dipjyotimetia/JARVIS?style=social&color=white)](https://github.com/dipjyotimetia/JARVIS/stargazers)
   - 🛠️ **Tech Stack**: Go, CLI • **License**: MIT
   - 💡 **Key Features**: Terminal-native testing assistant powered by Generative AI. Analyzes OpenAPI/Protobuf specifications, generates test suites and edge cases, performs automated root-cause analysis, and features a traffic inspector proxy.
   - ⚖️ **Trade-Off**: CLI-only without desktop GUI; early-stage open-source community.
