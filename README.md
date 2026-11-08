@@ -1,219 +1,194 @@
-# Awesome-AI-Powered-API-Development-Platform
+<div align="center">
 
-# Awesome-AI-Powered-API-Development-Platform
+<a href="https://github.com/ishandutta2007/Awesome-AI-Powered-API-Development-Platform">
+  <img src="assets/banner.svg" alt="Awesome AI-Powered API Development Platform Banner" width="100%"/>
+</a>
 
-**Top AI Powered API Development Platform (Opensource) 🌟 Star if you like it! 🌟**
+# 🚀 Awesome AI-Powered API Development Platform
 
+**The Ultimate Curated Directory of Next-Generation API Development Platforms, MCP Debugging Suites, AI Test Generation Engines & Autonomous Agent Workflows**
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Powered-API-Development-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Powered-API-Development-Platform?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Powered-API-Development-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Powered-API-Development-Platform?style=social" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Powered-API-Development-Platform/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-AI-Powered-API-Development-Platform?color=red" alt="GitHub Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Powered-API-Development-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License"/></a>
+  <a href="https://github.com/ishandutaa2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+**🌟 Star this repository if you find it valuable! Updated regularly for 2026. 🌟**
 
-*Focused on MCP Debugging, AI Test Generation, Agentic API Workflows & Self-Hosted API Clients*
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI-Powered API Development Platforms**. These tools enable developers to design, test, debug, and document APIs with AI assistance—from fully managed platforms with MCP clients, AI test generation, and agentic assistants to open-source API clients that bring AI capabilities through bring-your-own-key (BYOK) models without vendor lock-in.
-
-
-
-**Examples** include Postman, Apidog, Hoppscotch, Insomnia, Bruno, Thunder Client, Firecamp, RapidAPI Studio, Yaak, and Paw (the category leaders in commercial and open-source space).
-
-
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted API development, MCP tooling, and open AI integration. **Critical note**: The open-source landscape has matured significantly—**Bruno** offers native AI features with BYOK and a privacy-first architecture at $6/user/month for Pro , **Insomnia 12** includes free AI features (MCP servers, mock generation, commit suggestions) with local LLM support , and **Yaak** takes a contrarian approach with no built-in AI but an agent-friendly CLI and MCP plugin . No open-source project matches Postman's AI Agent Builder or Apidog's visual MCP debugging depth, but for BYOK flexibility and data sovereignty, the options are production-capable.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **Postman**
-
-  **AI-native API platform** with Agent Builder and MCP support. **Features**: **MCP requests** as first-class citizens—create, send, and debug MCP servers alongside HTTP, gRPC, and GraphQL ; **AI Tool Builder** generates custom MCP servers from 100,000+ public APIs; **AI Agent Builder** for designing, testing, and deploying agents; **LLM evaluation** via AI protocol; **Flows** for visual agentic workflow testing . **Pricing**: Free tier available; paid plans per user. **Free tier**: Yes, limited. **Best for**: teams wanting the most complete AI-agent development environment integrated with the world's largest API network—**trade-off**: data stored in vendor cloud; advanced AI features may require paid tiers.
-
-
-
-- **Apidog**
-
-  **API development platform with AI and MCP debugging**. **Features**: **Visual MCP debugging** inside the desktop app—supports STDIO and Streamable HTTP transports with auto OAuth; **AI Test Engine** generates positive, error-handling, boundary, and security test cases from specs; **AI Schema Descriptions and Mock** for field descriptions and mock data; **Apidog MCP Server** (`npx apidog-mcp-server`) feeds projects, docs, or OpenAPI files to Cursor and VS Code + Cline for grounded code generation; **unlimited sprint branches and API versions on free plan** . **Pricing**: Freemium with self-serve onboarding; paid tiers scale. **Free tier**: Yes, generous with unlimited branches. **Best for**: teams wanting visual MCP debugging plus AI test generation in one platform—**trade-off**: smaller ecosystem than Postman; MCP client is desktop-only.
-
-
-
-- **Hoppscotch**
-
-  **Open-source API development ecosystem with AI Assistant**. **Features**: **AI Assistant** (Enterprise Cloud and Enterprise Self-Host)—agentic chat that understands request, response, environment, and collections; can edit fields, run requests, manage tabs, write tests, create environments, organize collections, publish docs, and manage mock servers; chains actions and shows each step; **BYOK**—connect Anthropic, OpenAI, Bedrock, Azure, or local runtime . **Pricing**: **Enterprise Cloud $11/user/month** (annual) or **$14** (monthly); Free and Business plans available. **Free tier**: Yes, but AI Assistant requires Enterprise. **Best for**: teams wanting an open-source API client with agentic AI assistance and provider flexibility—**trade-off**: AI Assistant gated to Enterprise tier; newer AI features still evolving.
-
-
-
-- **Insomnia**
-
-  **API client with free AI features in v12**. **Features**: **MCP Servers and Clients**—connect to external AI-ready tools and resources; **AI-assisted mock server generation** from prompts or specs; **AI commit message suggestions**; **BYOK**—Claude, OpenAI, Gemini, custom LLM URL, or local LLM with full data residency . **Pricing**: **AI features free as of v12** (may change); core client free. **Free tier**: Yes, AI features free. **Best for**: developers wanting free AI features with local LLM support—**trade-off**: AI features are free now but future pricing uncertain; local models run slower.
-
-
-
-- **Bruno**
-
-  **Git-native, offline-first API client with AI**. **Features**: **Bruno AI** (Beta, v4+)—inline autocomplete in script editors, generate scripts from descriptions, generate tests, generate documentation; **BYOK**—OpenAI, Anthropic, or any OpenAI-compatible endpoint including self-hosted Llama; **no data routed through Bruno servers**—app communicates directly with provider . **Pricing**: **Open Source free** (includes AI Assistant with BYOK); **Pro $6/user/month** (annual) adds Git integration, unlimited workspaces, data-driven testing, report generation; **Ultimate $11/user/month** adds SSO, SCIM, audit logs, AI governance . **Free tier**: Yes, full client with AI BYOK. **Best for**: developers wanting Git-native collections with privacy-first AI—**trade-off**: AI features are Beta; no built-in MCP client (unlike Postman or Apidog).
-
-
-
-- **Yaak**
-
-  **Local-first API client with agent-friendly CLI**. **Features**: **No built-in AI sidebar**—instead, ships a **CLI** designed for AI agents like Claude and Codex to manage workspaces, send requests, and inspect responses; **MCP server plugin** for Claude, Cursor, and more; changes via CLI reflect immediately in the app; **JSON comments** and redirect warnings . **Pricing**: Free (open source). **Free tier**: Yes. **Best for**: developers who prefer agent-driven workflows over in-app AI chat—**trade-off**: no built-in AI; relies on external agents via CLI/MCP.
-
-
-
-- **Thunder Client**
-
-  **VS Code API client extension**. **Note**: No dedicated AI features surfaced in available search results. **Best for**: VS Code users wanting lightweight API testing without leaving the editor.
-
-
-
-- **Firecamp**
-
-  **API development platform**. **Note**: No dedicated AI features surfaced in available search results. **Best for**: teams wanting multi-protocol API testing.
-
-
-
-- **RapidAPI Studio**
-
-  **API testing within RapidAPI ecosystem**. **Note**: No dedicated AI features surfaced in available search results. **Best for**: RapidAPI marketplace users.
-
-
-
-- **Paw**
-
-  **macOS-native API client**. **Note**: No dedicated AI features surfaced in available search results. **Best for**: macOS developers wanting a native API client.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Hoppscotch](https://github.com/hoppscotch/hoppscotch)** [![GitHub stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers)
-
-  **Open-source API development ecosystem** (MIT) — **the most starred open-source API client**, with AI Assistant on Enterprise tiers. **Features**: **REST, GraphQL, WebSocket, SSE, Socket.IO, MQTT** support; **AI Assistant** (Enterprise)—agentic chat that edits requests, runs tests, manages collections, publishes docs; **BYOK**—Anthropic, OpenAI, Bedrock, Azure, or local runtime; **self-hosted or cloud**. **Tech stack**: Vue.js, TypeScript. **Deploy**: Self-hosted (Docker) or Hoppscotch Cloud. **Trade-off**: **AI Assistant requires Enterprise**—free and Business tiers lack agentic AI; newer AI features still maturing. **Best for**: teams wanting a full-featured API client with self-hosting and a path to agentic AI on Enterprise—especially those wanting multi-protocol support.
-
-- **[Bruno](https://github.com/usebruno/bruno)** [![GitHub stars](https://img.shields.io/github/stars/usebruno/bruno?style=social&color=white)](https://github.com/usebruno/bruno/stargazers)
-
-  **Git-native, offline-first API client** (MIT) — **the most privacy-conscious open-source API client with AI**, storing collections as plain-text YAML files for Git versioning. **Features**: **AI Assistant** (Beta)—inline autocomplete, script generation, test generation, documentation generation; **BYOK**—OpenAI, Anthropic, or any OpenAI-compatible endpoint including self-hosted Llama; **no data through Bruno servers**—direct provider communication; **native Git integration** (Pro); **CLI runner** for CI/CD; **OpenAPI sync** (Pro); **2 workspaces** on free tier. **Tech stack**: JavaScript/Electron. **Deploy**: Desktop app. **Trade-off**: **No built-in MCP client**—unlike Postman or Apidog; AI features are Beta. **Best for**: developers wanting Git-native collections with privacy-first AI and no cloud dependency—especially those who want their API definitions versioned alongside code.
-
-- **[Insomnia](https://github.com/Kong/insomnia)** [![GitHub stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers)
-
-  **Open-source API client with free AI features** (Apache 2.0 core) — **the most generous free AI offering** among API clients, with MCP client and local LLM support. **Features**: **MCP Servers and Clients**—connect to AI-ready tools; **AI mock server generation** from prompts or specs; **AI commit suggestions**; **BYOK**—Claude, OpenAI, Gemini, custom URL, or local LLM (`.gguf` file); **multi-protocol** (HTTP, gRPC, GraphQL, WebSocket, SOAP, SSE). **Tech stack**: Electron, React. **Deploy**: Desktop app. **Trade-off**: **AI features are free now but future pricing uncertain**; local LLMs require hardware and run slower; no agentic chat interface like Hoppscotch Enterprise. **Best for**: developers wanting free AI features including MCP client and local LLM support—especially those prioritizing data residency.
-
-- **[Yaak](https://github.com/mountain-loop/yaak)** [![GitHub stars](https://img.shields.io/github/stars/mountain-loop/yaak?style=social&color=white)](https://github.com/mountain-loop/yaak/stargazers)
-
-  **Local-first API client with agent-friendly CLI** (MIT / Commercial) — **the most agent-native API client**, designed for Claude Code, Codex, and Cursor rather than built-in AI. **Features**: **CLI** (`npm install -g @yaakapp/cli`)—manage workspaces, send requests, inspect responses; **self-describing**—agents use `schema` subcommands without installing skills; **MCP server plugin** for Claude, Cursor, and more; **JSON comments** in request bodies; **redirect warnings** with dropped header/body details; **no cloud platform, no dashboard, no AI sidebar**. **Tech stack**: Rust, Tauri. **Deploy**: Desktop app + CLI. **Trade-off**: **No built-in AI**—relies entirely on external agents; newer project with smaller community. **Best for**: developers who prefer agent-driven workflows over in-app AI chat—especially those using Claude Code or Codex for API work.
-
-- **[Mockoon](https://github.com/mockoon/mockoon)** [![GitHub stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers)
-
-  **Fastest local API mocking tool with AI Assistant** (MIT) — open-source mock server and API design environment with integrated AI template and endpoint generation. **Features**: **AI Assistant** generates complete HTTP endpoints, JSON schemas, realistic mock data, and response rules from natural language prompts; **local-first** with zero deployment overhead; **CLI and Docker runners** for CI/CD pipelines; **rules and proxying** to forward uncached traffic to live backends. **Tech stack**: TypeScript, Electron. **Deploy**: Desktop app, CLI, Docker. **Trade-off**: Cloud collaboration and certain advanced AI generation tools require Cloud/Pro tiers. **Best for**: developers and frontend teams wanting instant, realistic AI-generated mock APIs and local backend simulation.
-
-- **[API Dash](https://github.com/foss42/apidash)** [![GitHub stars](https://img.shields.io/github/stars/foss42/apidash?style=social&color=white)](https://github.com/foss42/apidash/stargazers)
-
-  **AI-powered open-source API client** (Apache 2.0) — beautiful, lightweight, cross-platform alternative to Postman and Insomnia built with Flutter. **Features**: **AI-powered integrations** to generate API integration code in Dart, Python, JavaScript, and more; **REST & GraphQL** request authoring; **visual response inspector**; **local storage & privacy** without mandatory account sign-up. **Tech stack**: Flutter, Dart. **Deploy**: Desktop (macOS, Windows, Linux) and Mobile. **Trade-off**: Newer ecosystem without enterprise workspace governance or built-in MCP debugging. **Best for**: developers seeking a fast, lightweight, and native cross-platform API client with AI assistance.
-
-- **[Restfox](https://github.com/flawiddsouza/Restfox)** [![GitHub stars](https://img.shields.io/github/stars/flawiddsouza/Restfox?style=social&color=white)](https://github.com/flawiddsouza/Restfox/stargazers)
-
-  **Offline-first minimalistic HTTP & socket client** (MIT) — lightweight, privacy-respecting Postman alternative running directly in the browser and desktop. **Features**: **Offline-first architecture** with data stored locally in browser IndexedDB; **REST, WebSockets, and socket testing**; **clean and distraction-free UI**; easily scriptable with community AI workflows. **Tech stack**: Vue.js, Web Standards. **Deploy**: Web app, Desktop. **Trade-off**: No built-in AI copilot or MCP client—relies on manual testing or external agent scripts. **Best for**: developers looking for an instant, distraction-free, zero-login API testing workbench.
-
-- **[Firecamp](https://github.com/firecamp-dev/firecamp)** [![GitHub stars](https://img.shields.io/github/stars/firecamp-dev/firecamp?style=social&color=white)](https://github.com/firecamp-dev/firecamp/stargazers)
-
-  **Open-source multi-protocol API development platform** (GPL-3.0) — DX-first platform built for multi-protocol testing and collaborative API workflows. **Features**: **Multi-protocol support** for REST, GraphQL, WebSocket, and Socket.IO; **AI-driven features on roadmap** for automated test generation and documentation; **team collaboration** with cloud sync. **Tech stack**: TypeScript, Electron. **Deploy**: Desktop app, Web. **Trade-off**: Full AI capabilities still rolling out; heavier footprint than pure local-first clients. **Best for**: teams requiring unified multi-protocol testing across REST and streaming APIs.
-
-- **[Yaade](https://github.com/EsperoTech/yaade)** [![GitHub stars](https://img.shields.io/github/stars/EsperoTech/yaade?style=social&color=white)](https://github.com/EsperoTech/yaade/stargazers)
-
-  **Self-hosted, collaborative API development environment** (MIT) — secure, on-premise alternative to Postman for privacy-minded teams. **Features**: **Multi-user self-hosting** with end-to-end encryption for sensitive tokens; **REST and WebSocket** request management; **OpenAPI import/export**; agent-friendly REST API for automated test executions. **Tech stack**: Kotlin, React. **Deploy**: Docker / self-hosted container. **Trade-off**: Focused primarily on self-hosted team collaboration rather than in-app LLM chatbots. **Best for**: organizations requiring fully self-hosted, encrypted API collections behind their own firewalls.
-
-- **[Step CI](https://github.com/stepci/stepci)** [![GitHub stars](https://img.shields.io/github/stars/stepci/stepci?style=social&color=white)](https://github.com/stepci/stepci/stargazers)
-
-  **Automated API testing and quality assurance framework** (Apache 2.0) — declarative, code-first framework designed for CI/CD and AI-driven testing workflows. **Features**: **Declarative YAML/JSON test definitions**; supports **REST, GraphQL, gRPC, and WebSocket**; **load testing and contract testing** built-in; ideal companion for LLMs and coding agents generating automated regression suites. **Tech stack**: Node.js, TypeScript. **Deploy**: CLI (`npx stepci`), CI/CD runner, Docker. **Trade-off**: CLI/code-first tool without a dedicated exploratory desktop GUI. **Best for**: developers and CI/CD pipelines integrating automated, agent-generated API test suites.
-
-- **[Testkube](https://github.com/kubeshop/testkube)** [![GitHub stars](https://img.shields.io/github/stars/kubeshop/testkube?style=social&color=white)](https://github.com/kubeshop/testkube/stargazers)
-
-  **Open testing platform for AI-driven engineering teams** (MIT) — Kubernetes-native test orchestration with native Model Context Protocol (MCP) and AI agents. **Features**: **Native MCP Server** letting AI assistants (Claude, Cursor) trigger, inspect, and debug test suites directly; **AI agents** for failure analysis, automatic root-cause debugging, and flaky test detection; orchestrates Postman, k6, Cypress, and custom test containers natively inside Kubernetes. **Tech stack**: Go, Kubernetes. **Deploy**: Kubernetes operator, CLI, Docker. **Trade-off**: Targeted at cloud-native orchestration and CI/CD test execution rather than single-endpoint interactive debugging. **Best for**: platform engineering teams seeking an AI-integrated, Kubernetes-native test runner with MCP support.
-
-- **[Sentinel API Testing](https://github.com/proffesor-for-testing/sentinel-api-testing)** [![GitHub stars](https://img.shields.io/github/stars/proffesor-for-testing/sentinel-api-testing?style=social&color=white)](https://github.com/proffesor-for-testing/sentinel-api-testing/stargazers)
-
-  **AI Agentic API Testing Platform** (MIT) — autonomous testing engine using specialized ephemeral agents for API validation. **Features**: Ephemeral AI agents generate and execute functional, security (BOLA, injections), and performance tests directly from OpenAPI/Swagger specs; **Multi-LLM BYOK** (Claude, GPT-4, Gemini, Ollama); **React dashboard** for real-time observability. **Tech stack**: Python, Rust, React. **Deploy**: Docker Compose. **Trade-off**: Testing automation platform rather than an interactive daily API client. **Best for**: automated agentic API test suites and autonomous security probing.
-
-- **[JARVIS](https://github.com/dipjyotimetia/JARVIS)** [![GitHub stars](https://img.shields.io/github/stars/dipjyotimetia/JARVIS?style=social&color=white)](https://github.com/dipjyotimetia/JARVIS/stargazers)
-
-  **CLI-based testing assistant powered by GenAI** (MIT) — AI-native CLI assistant tailored specifically for API test generation and failure diagnosis. **Features**: **OpenAPI and Protobuf spec analysis**; **AI test data and scenario generation** with edge/boundary cases; **AI failure analysis** with root cause identification and reproduction steps; **traffic inspector proxy** with record/replay; **BYOK** (Ollama local, OpenAI, Claude, Gemini). **Tech stack**: Go / CLI. **Deploy**: CLI binary. **Trade-off**: CLI only—no GUI or desktop client; early-stage community. **Best for**: developers wanting lightweight, terminal-based AI test generation and failure diagnosis.
-
-
-
-**Frameworks for building custom systems**: Combine **Bruno** for Git-native API work with **Yaak** for agent-driven workflows and **JARVIS** for AI test generation—creating a composable open-source AI API stack. **None of these match Postman's AI Agent Builder or Apidog's visual MCP debugging**, but for BYOK flexibility and data sovereignty, the options are production-capable.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- AI-powered API development platforms handling API specifications and credentials must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls and IP protection.
-
-- **The "AI Agent Builder" vs. "visual MCP debugging" vs. "agentic AI Assistant" vs. "BYOK AI" vs. "agent-friendly CLI" distinction is critical.** **Postman** provides an **AI Agent Builder**—MCP requests, AI Tool Builder, LLM evaluation, and Flows for agentic workflows . **Apidog** offers **visual MCP debugging**—debug MCP servers over STDIO/HTTP with AI test generation and schema descriptions . **Hoppscotch** has an **agentic AI Assistant**—chat that acts on requests, tests, docs, and mock servers (Enterprise only) . **Insomnia and Bruno** offer **BYOK AI**—mock generation, commit suggestions, script/test/doc generation with your own provider keys . **Yaak** is **agent-friendly**—no built-in AI, but a CLI and MCP plugin for external agents . **Choose based on whether you need agent building, MCP debugging, in-app chat, BYOK generation, or agent-driven workflows.**
-
-- **Postman's MCP support is the most complete**—MCP requests as first-class citizens alongside HTTP/gRPC/GraphQL, with AI Tool Builder generating servers from 100,000+ APIs . **The trade-off**: cloud-dependent; advanced features may require paid tiers.
-
-- **Apidog's visual MCP debugging is unique**—STDIO and Streamable HTTP with auto OAuth, plus AI Test Engine and schema descriptions . **The trade-off**: smaller ecosystem than Postman; MCP client desktop-only.
-
-- **Hoppscotch's AI Assistant is Enterprise-gated**—$11/user/month annual or $14 monthly; Free and Business lack agentic AI . **The trade-off**: newer AI features; BYOK flexibility is the strength.
-
-- **Insomnia's AI features are free as of v12**—MCP client, mock generation, commit suggestions, and local LLM support . **The trade-off**: free now but pricing may change; local models slower.
-
-- **Bruno's AI is Beta with BYOK**—Pro at $6/user/month adds Git integration and report generation; Ultimate at $11 adds AI governance and SSO . **The trade-off**: no built-in MCP client; Beta status.
-
-- **Yaak's contrarian approach is deliberate**—no AI sidebar, but a self-describing CLI that agents can use without skills, plus MCP plugin . **For agent-first developers, this is the cleanest workflow.**
-
-- Self-hosted open-source solutions require proper setup (Node.js for Bruno/Yaak, Docker for Hoppscotch) and provider API keys for AI features. **API platforms handle credentials and proprietary specifications**—ensure your deployment meets your organization's security and IP protection requirements before processing production APIs.
-
-
+</div>
 
 ---
 
+## 📖 Table of Contents
 
+- [🌐 Overview](#-overview)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🧩 Composable AI API Engineering Stacks](#-composable-ai-api-engineering-stacks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📜 Disclaimer & Security Best Practices](#-disclaimer--security-best-practices)
+- [⭐ Star History](#-star-history)
 
-**Made for API developers, platform engineers, and organizations building transparent AI-powered API tooling solutions.**
+---
 
-Let's make AI-Powered API Development Platforms more open, data-driven, and agent-ready.
+## 🌐 Overview
+
+This curated list tracks the premier **SaaS platforms** and **open-source tools** powering **AI-assisted API development**. These modern platforms empower software engineers, QA specialists, and DevOps teams to design, simulate, debug, and document REST, GraphQL, gRPC, and WebSocket APIs with artificial intelligence assistance.
+
+Modern platforms range from **agentic workspaces** with native **Model Context Protocol (MCP)** execution to **local-first, Git-native clients** offering bring-your-own-key (BYOK) privacy controls without vendor cloud lock-in.
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global API management and development software market is valued at approximately **$8.8 billion to $13.5 billion in 2026** and is projected to expand beyond **$35 billion by 2032** at an accelerating CAGR of **28%**, propelled by microservices expansion, cloud-native architectures, and generative AI tool integration.
+
+The market remains **moderately to highly fragmented rather than a winner-take-all monopoly**. While established incumbents like Postman command large market share in cloud collaboration and enterprise API discovery, specialized niches—such as privacy-first Git-synced clients (Bruno), local mock servers (Mockoon), Kubernetes-native execution platforms (Testkube), and agentic headless workflows (Yaak)—prevent single-vendor lock-in and encourage a healthy, federated multi-tool ecosystem.
+
+---
+
+## 💼 SaaS & Commercial Platforms
+
+The table below evaluates prominent commercial and hosted API development platforms, sorted in descending order of **company valuation / scale**.
+
+| Platform | Company Valuation / Revenue Scale | Pricing (Starting Paid Tier) | Free Tier Limits | Key AI & Architectural Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Postman](https://www.postman.com/)** | **$5.6B Valuation** (~$313M+ Revenue) | **$19/user/mo** (Team, billed annually; Solo $9/mo) | Strictly **1 user**; 1,000 cloud monitoring calls/mo; limited AI tokens/month | AI Agent Builder, first-class MCP server debugging, synthetic test creation, and Flows workflow automation. |
+| **[Insomnia (Kong)](https://insomnia.rest/)** | **$2.0B Valuation** (~$100M+ ARR via Kong Inc.) | **$10/user/mo** (Pro, billed annually; $12 billed monthly) | Up to **3 users** on Git Sync projects; 1,000 mock server calls/mo; unlimited local/cloud projects | Native MCP client/server connectivity, AI-assisted mock endpoint generation, commit suggestions, and local LLM GGUF execution. |
+| **[RapidAPI Studio](https://rapidapi.com/studio)** | **$1.0B Peak Valuation** (~$24M ARR; Acquired by Nokia) | **$10/mo** (Basic marketplace tiers start $10–$29/mo) | Provider plans capped at **1,000 req/hr** and **500,000 req/mo**; consumer limits set by individual APIs | Comprehensive API marketplace integration, automated spec testing, endpoint monitoring, and cloud workspace syncing. |
+| **[Bruno](https://www.usebruno.com/)** | **$3M Venture Funded** (Silverton Partners; 4M+ devs) | **$6/user/mo** (Pro annual; Ultimate $11/user/mo) | **Forever free** for core app & offline collections; capped at **2 workspaces** on free tier | Local-first plain-text Bru/YAML files, Git-native version control, and BYOK AI assistant (OpenAI, Anthropic, local Ollama). |
+| **[Hoppscotch](https://hoppscotch.io/)** | **$3M Seed Funded** (OSS Capital; 80k+ GitHub stars) | **$6/user/mo** (Business; Enterprise Cloud $11/user/mo) | **Forever free** with **unlimited** collections, requests, environments, and runs; AI Assistant requires Enterprise | Real-time multi-protocol support (REST, GraphQL, WebSockets, MQTT), self-hostable Docker edition, and BYOK Enterprise AI assistant. |
+| **[Thunder Client](https://www.thunderclient.com/)** | **Bootstrapped** (7M+ downloads; Private revenue) | **$3/user/mo** (Starter; Business $7/user/mo) | Capped at **250 collection runs/user/month**; Git sync and CLI restricted to paid tiers | Ultra-lightweight VS Code GUI extension, local data storage, and low memory footprint for seamless IDE testing. |
+| **[Firecamp](https://firecamp.io/)** | **Bootstrapped** (Pre-series/seed; Private revenue) | **$49/mo** (Team plan for up to 15 seats) | Up to **5 team members** free forever; unlimited workspaces and collections | Multi-protocol API testing across REST, GraphQL, and WebSockets with collaborative workspace synchronization. |
+| **[Apidog](https://apidog.com/)** | **Privately Held** (Bootstrapped / Private revenue) | **$9/user/mo** (Basic; Professional $18/user/mo) | Up to **4 users** free forever with unlimited branches and unlimited API design specifications | Desktop-native visual MCP debugger (STDIO and HTTP transports), AI Test Engine, intelligent mock servers, and CLI test runners. |
+| **[Paw (RapidAPI for Mac)](https://paw.cloud/)** | **Acquired Asset** (Acquired by RapidAPI / Nokia) | **$0/mo** (Core Mac client 100% free; Cloud sync requires RapidAPI team tier) | **Forever free** desktop macOS license; cloud collaboration follows RapidAPI account tiers | Native macOS Swift interface, dynamic environment values, visual request builder, and code generator for 30+ languages. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below are top-tier open-source API clients, testing assistants, and MCP orchestration platforms, **ranked in descending order by GitHub Stars** 🌟:
+
+- **[Hoppscotch](https://github.com/hoppscotch/hoppscotch)** [![GitHub stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=social&color=white)](https://github.com/hoppscotch/hoppscotch/stargazers)
+  - 🛠️ **Tech Stack**: Vue.js, TypeScript • **License**: MIT
+  - 💡 **Key Features**: The most popular open-source API client. Features REST, GraphQL, WebSocket, SSE, Socket.IO, and MQTT testing; agentic Enterprise AI assistant; BYOK integration (OpenAI, Anthropic, Bedrock, Ollama); self-hostable via Docker.
+  - ⚖️ **Trade-Off**: Agentic AI assistant capabilities are gated to Enterprise tiers.
+
+- **[Bruno](https://github.com/usebruno/bruno)** [![GitHub stars](https://img.shields.io/github/stars/usebruno/bruno?style=social&color=white)](https://github.com/usebruno/bruno/stargazers)
+  - 🛠️ **Tech Stack**: JavaScript, Electron • **License**: MIT
+  - 💡 **Key Features**: Git-native, privacy-first API client saving collections directly in plain text (Bru / YAML). Integrated AI assistant (Beta) with BYOK for test, script, and documentation generation with zero telemetry sent to vendor cloud.
+  - ⚖️ **Trade-Off**: Lacks built-in visual MCP client transport debugging compared to Postman/Apidog.
+
+- **[Insomnia](https://github.com/Kong/insomnia)** [![GitHub stars](https://img.shields.io/github/stars/Kong/insomnia?style=social&color=white)](https://github.com/Kong/insomnia/stargazers)
+  - 🛠️ **Tech Stack**: Electron, React • **License**: Apache 2.0 Core
+  - 💡 **Key Features**: Generous free AI tooling with native MCP Client and Server execution. AI-assisted mock server generation, commit suggestions, multi-protocol execution, and local LLM GGUF inference for data sovereignty.
+  - ⚖️ **Trade-Off**: Local offline LLM execution requires adequate developer hardware; lacks autonomous chat workflows.
+
+- **[Yaak](https://github.com/mountain-loop/yaak)** [![GitHub stars](https://img.shields.io/github/stars/mountain-loop/yaak?style=social&color=white)](https://github.com/mountain-loop/yaak/stargazers)
+  - 🛠️ **Tech Stack**: Rust, Tauri • **License**: MIT / Commercial
+  - 💡 **Key Features**: Ultra-fast, agent-first desktop client. Replaces in-app chat with an agent-friendly CLI (`@yaakapp/cli`) and MCP server plugin designed for Claude Code, Codex, and Cursor to orchestrate requests programmatically.
+  - ⚖️ **Trade-Off**: No in-app conversational assistant; designed entirely for external AI agent drivers.
+
+- **[Mockoon](https://github.com/mockoon/mockoon)** [![GitHub stars](https://img.shields.io/github/stars/mockoon/mockoon?style=social&color=white)](https://github.com/mockoon/mockoon/stargazers)
+  - 🛠️ **Tech Stack**: TypeScript, Electron • **License**: MIT
+  - 💡 **Key Features**: The fastest way to run realistic mock APIs locally. Features built-in AI endpoint generation, realistic JSON synthesis, route rules, proxy mode, CLI runner, and Docker containers for CI/CD.
+  - ⚖️ **Trade-Off**: Cloud collaboration and specialized remote team sync are part of commercial cloud tiers.
+
+- **[API Dash](https://github.com/foss42/apidash)** [![GitHub stars](https://img.shields.io/github/stars/foss42/apidash?style=social&color=white)](https://github.com/foss42/apidash/stargazers)
+  - 🛠️ **Tech Stack**: Flutter, Dart • **License**: Apache 2.0
+  - 💡 **Key Features**: Beautiful, lightweight, native cross-platform desktop and mobile client. Supports REST & GraphQL request creation, response inspection, and AI-assisted code generation across multiple languages.
+  - ⚖️ **Trade-Off**: Younger ecosystem without complex enterprise governance or native MCP server protocols.
+
+- **[Restfox](https://github.com/flawiddsouza/Restfox)** [![GitHub stars](https://img.shields.io/github/stars/flawiddsouza/Restfox?style=social&color=white)](https://github.com/flawiddsouza/Restfox/stargazers)
+  - 🛠️ **Tech Stack**: Vue.js, Web Standards • **License**: MIT
+  - 💡 **Key Features**: Completely offline-first, browser-based and desktop HTTP client. Minimalist UI, zero account registration, local IndexedDB persistence, and pluggable scripting.
+  - ⚖️ **Trade-Off**: Pure testing client without built-in AI features; relies on external agent scripting.
+
+- **[Firecamp](https://github.com/firecamp-dev/firecamp)** [![GitHub stars](https://img.shields.io/github/stars/firecamp-dev/firecamp?style=social&color=white)](https://github.com/firecamp-dev/firecamp/stargazers)
+  - 🛠️ **Tech Stack**: TypeScript, Electron • **License**: GPL-3.0
+  - 💡 **Key Features**: Multi-protocol developer platform for WebSocket, Socket.IO, GraphQL, and REST. Team workspaces, environment configuration, and planned AI test generation integrations.
+  - ⚖️ **Trade-Off**: Full generative AI features are still rolling out across the desktop client.
+
+- **[Yaade](https://github.com/EsperoTech/yaade)** [![GitHub stars](https://img.shields.io/github/stars/EsperoTech/yaade?style=social&color=white)](https://github.com/EsperoTech/yaade/stargazers)
+  - 🛠️ **Tech Stack**: Kotlin, React • **License**: MIT
+  - 💡 **Key Features**: Fully self-hosted, multi-user collaborative API platform with end-to-end encryption for security-sensitive organizations. Easily scriptable REST API for automated testing.
+  - ⚖️ **Trade-Off**: Does not include embedded LLM assistants; focuses on secure data hosting.
+
+- **[Step CI](https://github.com/stepci/stepci)** [![GitHub stars](https://img.shields.io/github/stars/stepci/stepci?style=social&color=white)](https://github.com/stepci/stepci/stargazers)
+  - 🛠️ **Tech Stack**: Node.js, TypeScript • **License**: Apache 2.0
+  - 💡 **Key Features**: Declarative, code-first framework for API testing and QA automation. Uses simple YAML/JSON definitions across REST, GraphQL, gRPC, and WebSockets. Perfect target for coding agents generating regression test suites.
+  - ⚖️ **Trade-Off**: Code-first and CLI-centric; lacks an interactive GUI workbench.
+
+- **[Testkube](https://github.com/kubeshop/testkube)** [![GitHub stars](https://img.shields.io/github/stars/kubeshop/testkube?style=social&color=white)](https://github.com/kubeshop/testkube/stargazers)
+  - 🛠️ **Tech Stack**: Go, Kubernetes • **License**: MIT
+  - 💡 **Key Features**: Kubernetes-native testing engine featuring a native Model Context Protocol (MCP) server. Enables AI assistants (Claude, Cursor) to execute and debug Postman, k6, and Cypress suites directly within Kubernetes clusters.
+  - ⚖️ **Trade-Off**: Enterprise Kubernetes infrastructure required; not intended for simple local endpoint ad-hoc testing.
+
+- **[Sentinel API Testing](https://github.com/proffesor-for-testing/sentinel-api-testing)** [![GitHub stars](https://img.shields.io/github/stars/proffesor-for-testing/sentinel-api-testing?style=social&color=white)](https://github.com/proffesor-for-testing/sentinel-api-testing/stargazers)
+  - 🛠️ **Tech Stack**: Python, Rust, React • **License**: MIT
+  - 💡 **Key Features**: Autonomous API testing platform utilizing ephemeral agents. Generates and runs functional, security (BOLA, injection), and stress tests from OpenAPI specifications with BYOK multi-model support.
+  - ⚖️ **Trade-Off**: Autonomous testing platform rather than an interactive daily exploratory client.
+
+- **[JARVIS](https://github.com/dipjyotimetia/JARVIS)** [![GitHub stars](https://img.shields.io/github/stars/dipjyotimetia/JARVIS?style=social&color=white)](https://github.com/dipjyotimetia/JARVIS/stargazers)
+  - 🛠️ **Tech Stack**: Go, CLI • **License**: MIT
+  - 💡 **Key Features**: Terminal-native testing assistant powered by Generative AI. Analyzes OpenAPI/Protobuf specifications, generates test suites and edge cases, performs automated root-cause analysis, and features a traffic inspector proxy.
+  - ⚖️ **Trade-Off**: CLI-only without desktop GUI; early-stage open-source community.
+
+---
+
+## 🧩 Composable AI API Engineering Stacks
+
+Modern software engineering teams are combining these open-source tools into custom, vendor-agnostic development environments:
+
+1. **The Git-Native Developer Stack**: Combine **Bruno** (for Git-tracked collections and local offline editing) with **Mockoon** (for AI-generated local endpoints).
+2. **The Agentic Autonomous Stack**: Combine **Yaak** (via its headless CLI and MCP plugin) with **Claude Code** or **Cursor** for automated request dispatching and test validation.
+3. **The Cloud-Native CI/CD Stack**: Pair **Step CI** or **Testkube MCP** with local **Ollama** models for automated regression testing and intelligent failure diagnosis in Kubernetes.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome from the developer community! To add or update an entry:
+
+1. 🍴 Fork the repository.
+2. 📝 Add or refine entries in `README.md` following the established formatting guidelines.
+3. 🔍 Ensure all tool URLs, pricing tiers, and open-source licenses are accurate and verifiable.
+4. 🚀 Submit a Pull Request with a descriptive summary of your changes.
+
+---
+
+## 💖 Support
+
+If this repository helps you navigate the AI-powered API landscape, please consider supporting the project:
+
+- ⭐ **Star** this repository on GitHub!
+- 🍴 **Fork** and contribute new tools or updates.
+- 📢 **Share** this list with fellow platform engineers, backend developers, and QA leads!
+- ☕ **Sponsor & Buy a Coffee**: Support ongoing maintenance through the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📜 Disclaimer & Security Best Practices
+
+- This repository is a community-curated directory intended for research and educational purposes.
+- **Data Protection & Credentials**: AI-powered API tooling frequently processes proprietary OpenAPI contracts, environment tokens, and authentication headers. Ensure that your organization's data governance standards (GDPR, CCPA, SOC2) and BYOK policies are maintained before sending API payloads to external cloud LLMs.
+- Self-hosted solutions (such as **Bruno**, **Hoppscotch Docker**, or **Mockoon**) are strongly recommended when strict data sovereignty or air-gapped environments are mandatory.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-AI-Powered-API-Development-Platform&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-AI-Powered-API-Development-Platform&type=date&legend=top-left)
+
+---
+
+<div align="center">
+  <b>Built with ❤️ for API Developers, Platform Engineers, and QA Teams worldwide.</b>
+</div>
